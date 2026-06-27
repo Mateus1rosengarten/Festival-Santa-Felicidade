@@ -7,7 +7,7 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="top-0 inset-x-0 z-50">
+    <header className="top-0 inset-x-0 z-50" id="home">
       <div className="mx-auto max-w-full">
         <div className="flex items-center justify-between bg-bordo backdrop-blur-xl border border-white/10 px-4 sm:px-6 py-2 text-creme shadow-[0_10px_40px_-10px_rgba(68,62,42,0.6)]">
           <div className="flex items-center gap-24">
@@ -22,8 +22,8 @@ export function Navbar() {
             </a>
             <nav className="hidden md:flex items-center gap-8 text-sm font-medium font-aventa uppercase tracking-[0.18em]">
               {[
-                ["Home", "#festival"],
-                ["Restaurantes", "#restaurantes"],
+                ["Home", "#home"],
+                ["Restaurantes", "#home"],
               ].map(([label, href]) => (
                 <a
                   key={href}
@@ -50,7 +50,7 @@ export function Navbar() {
     px-5 py-2
     text-creme
     transition-all duration-300
-    hover:bg-dourado hover:text-bordo
+    hover:bg-bordo hover:text-dourado
     hover:scale-105
   "
           >

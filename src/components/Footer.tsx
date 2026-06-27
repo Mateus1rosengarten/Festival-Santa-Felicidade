@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer id="programacao" className="bg-bordo text-creme">
+    <footer id="footer" className="bg-bordo text-creme">
       <div className="mx-auto max-w-[1500px] px-5 sm:px-8 py-16 sm:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-12 items-start">
           {/* Conteúdo principal */}
@@ -20,7 +20,7 @@ export function Footer() {
 
             <div className="mt-8 flex flex-wrap justify-center lg:justify-start sm:gap-3 gap-6">
               <a
-                href="#restaurantes"
+                href="#home"
                 className="rounded-full bg-creme text-marrom px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] hover:bg-dourado transition-colors"
               >
                 Ver restaurantes
@@ -28,7 +28,9 @@ export function Footer() {
 
               <a
                 id="instagram"
-                href="#"
+                href="https://instagram.com/festivaldesantafelicidade"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="rounded-full border-2 border-creme px-7 py-4 text-xs font-semibold uppercase tracking-normal hover:bg-creme hover:text-bordo transition-colors inline-flex items-center gap-2"
               >
                 <svg
@@ -80,13 +82,13 @@ export function Footer() {
 
               <ul className="space-y-2 text-creme/90">
                 <li>
-                  <a href="" className="hover:text-dourado transition-colors">
+                  <a href="#home" className="hover:text-dourado transition-colors">
                     Sobre
                   </a>
                 </li>
 
                 <li>
-                  <a href="#restaurantes" className="hover:text-dourado transition-colors">
+                  <a href="#home" className="hover:text-dourado transition-colors">
                     Restaurantes
                   </a>
                 </li>

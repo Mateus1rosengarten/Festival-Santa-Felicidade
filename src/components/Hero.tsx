@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
-import heroPasta from "@/assets/hero-pasta.jpg";
-import heroWine from "@/assets/hero-wine.jpg";
 import pizza from "@/assets/pizza.jpg";
 import heropic from "@/assets/santafelicidade.jpg";
+import estrela from "@/assets/star.png";
 
 export function Hero() {
   function useParallax() {
@@ -17,7 +16,7 @@ export function Hero() {
   const y = useParallax();
   return (
     <section
-      id="top"
+      id="hero"
       className="relative min-h-screen w-full overflow-hidden bg-creme pt-12 sm:pt-22 sm:pb-32"
     >
       {/* Background color blocks */}
@@ -41,7 +40,7 @@ export function Hero() {
 
       <div className="mx-auto max-w-[1500px] px-5 sm:px-8">
         {/* Top meta row */}
-        <div className="hidden flex flex-wrap items-center justify-between gap-4 text-marrom mb-6 sm:mb-10">
+        <div className="hidden sm:block flex flex-wrap items-center justify-between gap-4 text-marrom mb-6 sm:mb-10">
           <div className="flex items-center gap-6 text-xs sm:text-sm">
             {/* LOCATION */}
             <div className="flex flex-col leading-none">
@@ -135,9 +134,18 @@ export function Hero() {
                 </div>
               </div>
             </div>
+            <div className="hidden sm:flex">
+              <span className="text-marrom text-2xl sm:text-6xl mx-1 font-semibold">Tradição</span>{" "}
+              <img src={estrela} alt="Estrela" className="w-20 h-15" />
+              <span className=" text-marrom text-2xl sm:text-6xl mx-1 font-semibold">
+                Cultura
+              </span>{" "}
+              <img src={estrela} alt="Estrela" className="mx-1 w-20 h-15" />
+              <span className="text-marrom text-2xl sm:text-6xl font-semibold">Sabor</span>
+            </div>
             <br />
             <br />
-            <p className=" text-lg sm:text-xl leading-relaxed pl-4 inline-block bg-dourado sm:bg-bordo sm:text-creme font-extrabold px-6 py-4 ">
+            <p className="text-lg sm:text-xl leading-relaxed pl-4 inline-block bg-dourado sm:bg-bordo sm:text-creme font-extrabold px-6 py-4 ">
               Durante mais de um mês, Santa Felicidade reúne seus restaurantes, histórias e
               experiências para celebrar a gastronomia que transformou o bairro em um dos maiores
               símbolos de Curitiba.
@@ -145,7 +153,7 @@ export function Hero() {
           </p>
           <div className="flex flex-wrap items-center gap-6 sm:gap-4 mt-8 sm:mt-0">
             <a
-              href="#restaurantes"
+              href="#home"
               className="mx-auto group relative inline-flex items-center gap-3 rounded-full bg-bordo text-creme px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] transition-all hover:bg-marrom hover:-translate-y-0.5 shadow-[0_12px_30px_-8px_rgba(133,67,63,0.6)]"
             >
               Ver restaurantes
@@ -154,7 +162,7 @@ export function Hero() {
               </span>
             </a>
             <a
-              href="#festival"
+              href="#home"
               className="mx-auto inline-flex items-center gap-2 rounded-full border-2 border-marrom px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-marrom transition-all hover:bg-marrom hover:text-creme"
             >
               Saiba mais
