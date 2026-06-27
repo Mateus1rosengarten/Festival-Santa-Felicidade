@@ -60,7 +60,7 @@ export function Hero() {
               <span className="font-aventa uppercase tracking-[0.25em] text-sm text-black font-bold inline-block bg-azul text-marrom px-2 py-1">
                 Quando
               </span>
-              <span className="text-sm sm:text-md tracking-wide">04 JUL — 08 AGO 2026</span>
+              <span className="text-sm sm:text-md tracking-wide">04 JULHO — 08 AGOSTO 2026</span>
             </div>
           </div>
         </div>
