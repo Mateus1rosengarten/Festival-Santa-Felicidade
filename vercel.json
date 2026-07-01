@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/revista.pdf",
-      "destination": "https://pub-c244f1f7a0f54ce08b4b4ddefd0fd99e.r2.dev/revista.pdf",
-      "permanent": true
-    }
-  ]
-}
