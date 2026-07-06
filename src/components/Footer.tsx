@@ -3,14 +3,13 @@ export function Footer() {
     <footer id="footer" className="bg-bordo text-creme">
       <div className="mx-auto max-w-[1500px] px-5 sm:px-8 py-16 sm:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-12 items-start">
-          {/* Conteúdo principal */}
           <div className="text-center lg:text-left">
             <p className="text-xs uppercase tracking-[0.25em] text-dourado font-bold mb-4">
               Garanta sua presença
             </p>
 
-            <h2 className="font-display text-5xl sm:text-7xl lg:text-8xl leading-[0.88] tracking-tight">
-              Sabores que <span className="font-serif-italic text-dourado">contam histórias</span>.
+            <h2 className="font-display text-5xl sm:text-7xl lg:text-7xl leading-[0.88] tracking-normal">
+              Sabores que <br></br> <span className="text-dourado">contam histórias</span>.
             </h2>
 
             <p className="mt-6 text-creme/85 max-w-md mx-auto lg:mx-0 leading-relaxed text-base sm:text-lg">
@@ -49,7 +48,6 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Informações */}
           <div className="grid grid-cols-2 gap-8 text-sm text-center lg:text-left">
             <div className=" p-4">
               <div className="text-dourado uppercase text-xs tracking-[0.2em] font-bold mb-3">

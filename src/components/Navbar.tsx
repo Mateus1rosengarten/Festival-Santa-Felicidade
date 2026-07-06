@@ -15,7 +15,6 @@ export function Navbar() {
               href="#top"
               className="flex items-center gap-2 font-display text-lg sm:text-xl tracking-tight"
             >
-              <span className="inline-block h-2.5 w-2.5 rounded-full bg-dourado" />
               <div className="w-25 sm:w-40">
                 <img src={logo} />
               </div>
