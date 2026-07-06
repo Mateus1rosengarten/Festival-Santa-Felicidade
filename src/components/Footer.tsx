@@ -20,7 +20,7 @@ export function Footer() {
             <div className="mt-8 flex flex-wrap justify-center lg:justify-start sm:gap-3 gap-6">
               <a
                 href="#home"
-                className="rounded-full bg-creme text-marrom px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] hover:bg-dourado transition-colors"
+                className="rounded-full bg-creme text-marrom px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] hover:bg-marrom hover:text-creme transition-colors"
               >
                 Ver restaurantes
               </a>
@@ -30,7 +30,7 @@ export function Footer() {
                 href="https://instagram.com/festivaldesantafelicidade"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border-2 border-creme px-7 py-4 text-xs font-semibold uppercase tracking-normal hover:bg-creme hover:text-bordo transition-colors inline-flex items-center gap-2"
+                className="rounded-full border-2 border-creme px-7 py-4 text-xs font-semibold uppercase tracking-normal hover:bg-marrom hover:text-cremetransition-colors inline-flex items-center gap-2"
               >
                 <svg
                   viewBox="0 0 24 24"

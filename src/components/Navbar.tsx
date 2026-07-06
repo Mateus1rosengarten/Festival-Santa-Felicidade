@@ -49,8 +49,9 @@ export function Navbar() {
     px-5 py-2
     text-creme
     transition-all duration-300
-    hover:bg-bordo hover:text-dourado
+    hover:bg-marrom hover:text-creme
     hover:scale-105 
+    cursor-pointer
   "
           >
             <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor">
