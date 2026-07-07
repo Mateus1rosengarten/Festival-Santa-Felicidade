@@ -22,7 +22,7 @@ export function Navbar() {
             <nav className="hidden md:flex items-center gap-8 text-sm font-medium font-aventa uppercase tracking-[0.18em]">
               {[
                 ["Home", "#home"],
-                ["Restaurantes", "#home"],
+                ["Restaurantes", "/revista.pdf"],
               ].map(([label, href]) => (
                 <a
                   key={href}

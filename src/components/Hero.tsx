@@ -48,6 +48,8 @@ export function Hero() {
           <div className="flex flex-wrap items-center gap-6 sm:gap-4 mt-8 sm:mt-0">
             <a
               href="/revista.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mx-auto group relative inline-flex items-center gap-3 rounded-full bg-bordo text-creme px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] transition-all hover:bg-marrom hover:-translate-y-0.5 shadow-[0_12px_30px_-8px_rgba(133,67,63,0.6)]"
             >
               Ver restaurantes
@@ -57,6 +59,8 @@ export function Hero() {
             </a>
             <a
               href="/revista.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mx-auto inline-flex items-center gap-2 rounded-full border-2 border-marrom px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-marrom transition-all hover:bg-marrom hover:text-creme"
             >
               Saiba mais

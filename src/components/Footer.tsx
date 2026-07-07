@@ -19,7 +19,9 @@ export function Footer() {
 
             <div className="mt-8 flex flex-wrap justify-center lg:justify-start sm:gap-3 gap-6">
               <a
-                href="#home"
+                href="/revista.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="rounded-full bg-creme text-marrom px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] hover:bg-marrom hover:text-creme transition-colors"
               >
                 Ver restaurantes
@@ -86,7 +88,12 @@ export function Footer() {
                 </li>
 
                 <li>
-                  <a href="#home" className="hover:text-dourado transition-colors">
+                  <a
+                    href="/revista.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-dourado transition-colors"
+                  >
                     Restaurantes
                   </a>
                 </li>
