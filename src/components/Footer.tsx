@@ -8,11 +8,11 @@ export function Footer() {
               Garanta sua presença
             </p>
 
-            <h2 className="font-display text-5xl sm:text-7xl lg:text-7xl leading-[0.88] tracking-normal">
+            <h2 className="font-display text-5xl sm:text-5xl leading-[0.88] tracking-normal">
               Sabores que <br></br> <span className="text-dourado">contam histórias</span>.
             </h2>
 
-            <p className="mt-6 text-creme/85 max-w-md mx-auto lg:mx-0 leading-relaxed text-base sm:text-lg">
+            <p className="mt-6 text-creme/85 max-w-md mx-auto lg:mx-0 leading-relaxed text-base sm:text-md">
               Acompanhe a programação completa, os restaurantes confirmados e as experiências
               exclusivas da 1ª edição.
             </p>
@@ -123,10 +123,9 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Rodapé inferior */}
-        <div className="mt-16 sm:mt-24 pt-6 border-t border-creme/20 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-creme/70 uppercase tracking-[0.2em] text-center">
+        <div className="mt-16 sm:mt-24 pt-6 border-t border-creme/20 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-creme/70 uppercase tracking-[0.1em] text-center">
           <span className="font-medium">© 2026 Festival Gastronômico de Santa Felicidade</span>
-          <span className="font-medium mt-4 sm:mt-0">Curitiba · Brasil</span>
+          <span className="font-medium mt-4 sm:mt-0">Santa Felicidade · Curitiba</span>
         </div>
       </div>
     </footer>
