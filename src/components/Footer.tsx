@@ -30,7 +30,7 @@ export function Footer() {
                 href="https://instagram.com/festivaldesantafelicidade"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border-2 border-creme px-7 py-4 text-xs font-semibold uppercase tracking-normal hover:bg-marrom hover:text-cremetransition-colors inline-flex items-center gap-2"
+                className="rounded-full border-1 border-creme px-7 py-4 text-xs font-semibold uppercase tracking-normal hover:bg-marrom hover:text-cremetransition-colors inline-flex items-center gap-2"
               >
                 <svg
                   viewBox="0 0 24 24"
