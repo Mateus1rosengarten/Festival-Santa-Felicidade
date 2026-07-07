@@ -8,7 +8,7 @@ export function Footer() {
               Garanta sua presença
             </p>
 
-            <h2 className="font-display text-5xl sm:text-5xl leading-[0.88] tracking-normal">
+            <h2 className="font-display text-4xl sm:text-5xl leading-[0.88] tracking-normal">
               Sabores que <br></br> <span className="text-dourado">contam histórias</span>.
             </h2>
 
