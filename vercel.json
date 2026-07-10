@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/revista.pdf",
+      "destination": "https://online.fliphtml5.com/SEU_LINK/",
+      "permanent": false
+    }
+  ]
+}
