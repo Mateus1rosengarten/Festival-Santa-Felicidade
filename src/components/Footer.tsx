@@ -97,6 +97,16 @@ export function Footer() {
                     Restaurantes
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="/passaporte.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-dourado transition-colors"
+                  >
+                    Passaporte Gastronômico
+                  </a>
+                </li>
               </ul>
             </div>
 
