@@ -1,4 +1,9 @@
 export function Footer() {
+  const message = encodeURIComponent(
+    "Olá! Vi um site desenvolvido por você e gostaria de saber mais sobre seus serviços.",
+  );
+
+  const whatsAppDeveloper = "5547999933969";
   return (
     <footer id="footer" className="bg-bordo text-creme">
       <div className="mx-auto max-w-[1500px] px-5 sm:px-8 py-16 sm:py-24">
@@ -141,8 +146,21 @@ export function Footer() {
         </div>
 
         <div className="mt-16 sm:mt-24 pt-6 border-t border-creme/20 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-creme/70 uppercase tracking-[0.1em] text-center">
-          <span className="font-medium">© 2026 Festival Gastronômico de Santa Felicidade</span>
-          <span className="font-medium mt-4 sm:mt-0">Santa Felicidade · Curitiba</span>
+          <span className="font-medium">
+            © 2026 Festival Gastronômico de Santa Felicidade - Curitiba
+          </span>
+          <span className="font-medium mt-4 sm:mt-0">
+            Website desenvolvido por{" "}
+            <a
+              href={`https://wa.me/${whatsAppDeveloper}?text=${message}`}
+
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline font-bold text-creme/90 transition-colors"
+            >
+              MR
+            </a>
+          </span>{" "}
         </div>
       </div>
     </footer>
